@@ -8,7 +8,7 @@ end
 new_array
 end
 
-def reduce(array)
+def reduce(array, sp=nil)
   i = 0 
   new_array = []
   while i < array.length do 
