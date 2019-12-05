@@ -1,4 +1,4 @@
-def map(array)
+def map(array) 
 
 
 negative_values(value) do |val|
