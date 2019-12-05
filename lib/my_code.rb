@@ -10,10 +10,10 @@ end
 
 def reduce(array, sp=nil)
 if sp 
-  num1 = sp
+  sum = sp
   i = 0 
 else
-  num1 = array[0] 
+  sum = array[0] 
   i = 1
   while i < array.lengthr do 
     yield(num1, array[i])
