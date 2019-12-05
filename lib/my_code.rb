@@ -16,6 +16,8 @@ else
   sum = array[0] 
   i = 1
   while i < array.lengthr do 
-    yield(num1, array[i])
+   sum = yield(num1, array[i])
+   i += 1 
+ end
     
 end 
