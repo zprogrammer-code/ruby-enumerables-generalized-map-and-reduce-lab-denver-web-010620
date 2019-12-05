@@ -16,6 +16,6 @@ else
   num1 = array[0] 
   i = 1
   while i < array.lengthr do 
-    
+    yield(num1, array[i])
     
 end 
