@@ -15,9 +15,10 @@ if sp
 else
   sum = array[0] 
   i = 1
+end
   while i < array.lengthr do 
    sum = yield(num1, array[i])
    i += 1 
  end
-    
+  sum  
 end 
