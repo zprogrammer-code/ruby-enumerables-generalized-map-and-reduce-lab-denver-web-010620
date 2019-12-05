@@ -1,4 +1,5 @@
-[1,2,3].map do
+[1,2,3].map do |n|
+  n * -n
  ==
  map(array){|n| n*n}
  def map_to_no_change(array)
