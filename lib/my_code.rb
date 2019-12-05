@@ -10,3 +10,4 @@ def map_to_negativize(x)
    end
 index += 1
  end
+ 
