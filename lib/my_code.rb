@@ -9,8 +9,7 @@ new_array
 end
 
 def reduce(array, sp=nil)
-  i = 0 
-  new_array = []
-  while i < array.length do 
+if sp 
+  num1 = sp
     
 end 
