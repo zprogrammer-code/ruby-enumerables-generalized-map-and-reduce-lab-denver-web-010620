@@ -7,3 +7,10 @@ while i < array.length do
 end
 new_array
 end
+
+def reduce(array)
+  i = 0 
+  new_array = []
+  while i < array.length do 
+    
+end 
